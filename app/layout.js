@@ -11,16 +11,16 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Portfolio of DJEBBARA Feyrouz - Software Engineer & Graphic Designer ',
   description: 'This is the portfolio of DJEBBARA Feyrouz. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
-  icons: {
-    icon: '/favicon.ico', // Pointing to the file in the public folder
-  },
+  // icons: {
+  //   icon: '/favicon.ico', // Pointing to the file in the public folder
+  // },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
-  <link rel="icon" href="/favicon.ico" />
+  // <link rel="icon" href="/favicon.ico" />
 </head>
       <body className={inter.className}>
         <ToastContainer />
