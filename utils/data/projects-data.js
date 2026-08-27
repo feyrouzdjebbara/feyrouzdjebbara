@@ -7,7 +7,7 @@ export const projectsData = [
         tools: ['HTML','CSS','JavaScript','ReactJs','NextJs'],
         role: 'Frontend Developer',
         code: '',
-        demo: 'https://my-ahadith.vercel.app/',
+        demo: 'https://myahadith.vercel.app/',
         image:'/myAhadith.png',
     },
     {
